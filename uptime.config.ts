@@ -83,7 +83,7 @@ const workerConfig = {
             timeout: 10000,
         },
         {
-            id: 'mm.tigaultraman.com',
+            id: 'mm.gulaoda.us.kg',
             name: 'Memos_大盘鸡',
             // `method` should be `TCP_PING` for tcp monitors
             method: 'GET',
@@ -94,8 +94,8 @@ const workerConfig = {
             timeout: 10000,
         },
         {
-            id: 'portal.tigaultraman.com',
-            name: 'SunPanel_大盘鸡',
+            id: 'spp.gulaoda.us.kg',
+            name: 'SunPanel_UGOS',
             // `method` should be `TCP_PING` for tcp monitors
             method: 'GET',
             // `target` should be `host:port` for tcp monitors
@@ -105,7 +105,7 @@ const workerConfig = {
             timeout: 10000,
         },
         {
-            id: 'jump.tigaultraman.com',
+            id: 'jump.gulaoda.us.kg',
             name: '堡垒机内',
             // `method` should be `TCP_PING` for tcp monitors
             method: 'GET',
@@ -128,7 +128,7 @@ const workerConfig = {
         },
         {
             id: 'image.gulaoda.com',
-            name: '绿联gulaoda图床',
+            name: 'R2-gulaoda图床',
             // `method` should be `TCP_PING` for tcp monitors
             method: 'GET',
             // `target` should be `host:port` for tcp monitors
@@ -139,7 +139,7 @@ const workerConfig = {
         },
         {
             id: 'guguimage.aceultraman.com',
-            name: '绿联aceultraman图床',
+            name: 'R2-aceultraman图床',
             // `method` should be `TCP_PING` for tcp monitors
             method: 'GET',
             // `target` should be `host:port` for tcp monitors
@@ -160,7 +160,7 @@ const workerConfig = {
             timeout: 10000,
         },
         {
-            id: 'note.guguji.us.kg',
+            id: 'note.gulaoda.us.kg',
             name: 'Joplin',
             // `method` should be `TCP_PING` for tcp monitors
             method: 'GET',
@@ -174,22 +174,22 @@ const workerConfig = {
         // K8S service
 
         // monitor VPS status
-        {
-            id: 'AI_MS600_Internal',
-            name: 'AI_MS600_Internal',
+        //{
+        //    id: 'AI_MS600_Internal',
+        //    name: 'AI_MS600_Internal',
             // `method` should be `TCP_PING` for tcp monitors
-            method: 'TCP_PING',
+        //    method: 'TCP_PING',
             // `target` should be `host:port` for tcp monitors
-            target: '52.163.74.33:80',
-            tooltip: 'My production server SSH',
+        //    target: '52.163.74.33:80',
+        //    tooltip: 'My production server SSH',
             //statusPageLink: 'https://example.com',
-            timeout: 5000,
+        //    timeout: 5000,
         },
     ],
     notification: {
         // [Optional] apprise API server URL
         // if not specified, no notification will be sent
-        appriseApiServer: "https://apprise.example.com/notify",
+        appriseApiServer: "https://gugu-test-apprise-notification-dqhmp8faaqewqexsadap.vercel.app/notify",
         // [Optional] recipient URL for apprise, refer to https://github.com/caronc/apprise
         // if not specified, no notification will be sent
         recipientUrl: "tgram://bottoken/ChatID",
