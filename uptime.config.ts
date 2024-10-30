@@ -184,7 +184,7 @@ const workerConfig = {
         //    tooltip: 'My production server SSH',
             //statusPageLink: 'https://example.com',
         //    timeout: 5000,
-        },
+        //},
     ],
     notification: {
         // [Optional] apprise API server URL
