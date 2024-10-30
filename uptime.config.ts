@@ -88,9 +88,9 @@ const workerConfig = {
             // `method` should be `TCP_PING` for tcp monitors
             method: 'GET',
             // `target` should be `host:port` for tcp monitors
-            target: 'https://mm.tigaultraman.com/',
+            target: 'https://mm.gulaoda.us.kg/',
             tooltip: 'My production server monitor',
-            statusPageLink: 'https://mm.tigaultraman.com/',
+            statusPageLink: 'https://mm.gulaoda.us.kg/',
             timeout: 10000,
         },
         {
@@ -99,9 +99,9 @@ const workerConfig = {
             // `method` should be `TCP_PING` for tcp monitors
             method: 'GET',
             // `target` should be `host:port` for tcp monitors
-            target: 'https://portal.tigaultraman.com/',
+            target: 'https://spp.gulaoda.us.kg/',
             tooltip: 'My production server monitor',
-            statusPageLink: 'https://portal.tigaultraman.com/',
+            statusPageLink: 'https://spp.gulaoda.us.kg/',
             timeout: 10000,
         },
         {
@@ -110,9 +110,9 @@ const workerConfig = {
             // `method` should be `TCP_PING` for tcp monitors
             method: 'GET',
             // `target` should be `host:port` for tcp monitors
-            target: 'https://jump.tigaultraman.com/',
+            target: 'https://jump.gulaoda.us.kg/',
             tooltip: 'My production server monitor',
-            statusPageLink: 'https://jump.tigaultraman.com/',
+            statusPageLink: 'https://jump.gulaoda.us.kg/',
             timeout: 10000,
         },
         {
@@ -165,9 +165,9 @@ const workerConfig = {
             // `method` should be `TCP_PING` for tcp monitors
             method: 'GET',
             // `target` should be `host:port` for tcp monitors
-            target: 'https://note.guguji.us.kg/',
+            target: 'https://note.gulaoda.us.kg/',
             tooltip: 'My production server monitor',
-            statusPageLink: 'https://note.guguji.us.kg/',
+            statusPageLink: 'https://note.gulaoda.us.kg/',
             timeout: 10000,
         },
 
