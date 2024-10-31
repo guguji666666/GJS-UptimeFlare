@@ -187,16 +187,16 @@ const workerConfig = {
         //    timeout: 5000,
         //},
     ],
-    notification: {
+    //notification: {
         // [Optional] apprise API server URL
-        appriseApiServer: "https://gugu-test-apprise-notification-dqhmp8faaqewqexsadap.vercel.app/notify",
+    //    appriseApiServer: "https://gugu-test-apprise-notification-dqhmp8faaqewqexsadap.vercel.app/notify",
         // [Optional] recipient URL for apprise, refer to https://github.com/caronc/apprise
         //recipientUrl: "tgram://bottoken/ChatID",
         // [Optional] timezone used in notification messages, default to "Etc/GMT"
-        timeZone: "Asia/Shanghai",
+    //    timeZone: "Asia/Shanghai",
         // [Optional] grace period in minutes before sending a notification
-        gracePeriod: 5,
-    },
+    //    gracePeriod: 5,
+    //},
     callbacks: {
         onStatusChange: async (
             env: any,
