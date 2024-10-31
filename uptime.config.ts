@@ -193,7 +193,7 @@ const workerConfig = {
         // [Optional] recipient URL for apprise, refer to https://github.com/caronc/apprise
         // if not specified, no notification will be sent
         //recipientUrl: "tgram://bottoken/ChatID",
-        recipientUrl: "tgram://6080884946:AAG1Cvh658ZVv6MWiz1oRZ1pC-OSG4dF5Bw/2104804853/", 
+        //recipientUrl: "tgram://6080884946:AAG1Cvh658ZVv6MWiz1oRZ1pC-OSG4dF5Bw/2104804853/", 
         recipientUrl: "bark://bkgg.guguji.us.kg/WhfLLN5E8VpJmDDxtbmZ2i/",        
         // [Optional] timezone used in notification messages, default to "Etc/GMT"
         timeZone: "Asia/Shanghai",
