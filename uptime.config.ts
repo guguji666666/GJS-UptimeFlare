@@ -1,6 +1,6 @@
 const pageConfig = {
     // Title for your status page
-    title: "咕咕鸡 Status Page",
+    title: "鸡窝",
     // Links shown at the header of your status page, could set `highlight` to `true`
     links: [
         //{ link: 'https://am.809098.xyz', label: '个人博客', highlight: true },
@@ -23,7 +23,7 @@ const workerConfig = {
             // `id` should be unique, history will be kept if the `id` remains constant
             id: 'nezhakk.guguji.us.kg',
             // `name` is used at status page and callback message
-            name: '哪吒面板_Vercel',
+            name: 'Nezha_Dash_Vercel',
             // `method` should be a valid HTTP Method
             method: 'GET',
             // `target` is a valid URL
@@ -49,6 +49,72 @@ const workerConfig = {
             // refer to docs https://github.com/lyc8503/UptimeFlare/wiki/Geo-specific-checks-setup before setting this value
             // checkLocationWorkerRoute: 'https://am.809098.xyz',
         },
+        {
+            id: 'up.gulaoda.us.kg',
+            name: 'UptimeKuma_docker',
+            // `method` should be `TCP_PING` for tcp monitors
+            method: 'GET',
+            // `target` should be `host:port` for tcp monitors
+            target: 'https://up.gulaoda.us.kg/',
+            tooltip: 'My production server monitor',
+            statusPageLink: 'hhttps://up.gulaoda.us.kg//',
+            timeout: 10000,
+        },
+        {
+            id: 'jump.gulaoda.us.kg',
+            name: 'JumpeSever 堡垒机_UGOS',
+            // `method` should be `TCP_PING` for tcp monitors
+            method: 'GET',
+            // `target` should be `host:port` for tcp monitors
+            target: 'https://jump.gulaoda.us.kg/',
+            tooltip: 'My production server monitor',
+            statusPageLink: 'https://jump.gulaoda.us.kg/',
+            timeout: 10000,
+        },
+        {
+            id: 'pan.gulaoda.us.kg',
+            name: 'PingvinShare网盘_UGOS',
+            // `method` should be `TCP_PING` for tcp monitors
+            method: 'GET',
+            // `target` should be `host:port` for tcp monitors
+            target: 'https://pan.gulaoda.us.kg/',
+            tooltip: 'My production server monitor',
+            statusPageLink: 'https://pan.gulaoda.us.kg/',
+            timeout: 10000,
+        },
+        {
+            id: 'bm.gulaoda.us.kg',
+            name: 'Linkwarden书签',
+            // `method` should be `TCP_PING` for tcp monitors
+            method: 'GET',
+            // `target` should be `host:port` for tcp monitors
+            target: 'https://bm.gulaoda.us.kg/',
+            tooltip: 'My production server monitor',
+            statusPageLink: 'https://bm.gulaoda.us.kg/',
+            timeout: 10000,
+        },
+        {
+            id: 'frss.gulaoda.us.kg',
+            name: 'FreshRSS',
+            // `method` should be `TCP_PING` for tcp monitors
+            method: 'GET',
+            // `target` should be `host:port` for tcp monitors
+            target: 'https://frss.gulaoda.us.kg/',
+            tooltip: 'My production server monitor',
+            statusPageLink: 'https://frss.gulaoda.us.kg/',
+            timeout: 10000,
+        },
+        {
+            id: 'rssh.gulaoda.us.kg',
+            name: 'RssHub',
+            // `method` should be `TCP_PING` for tcp monitors
+            method: 'GET',
+            // `target` should be `host:port` for tcp monitors
+            target: 'https://rssh.gulaoda.us.kg/',
+            tooltip: 'My production server monitor',
+            statusPageLink: 'https://rssh.gulaoda.us.kg/',
+            timeout: 10000,
+        },
         // Example TCP Monitor
         {
             id: 'nezha.guguji.us.kg',
@@ -61,6 +127,18 @@ const workerConfig = {
             statusPageLink: 'https://nezha.guguji.us.kg/',
             timeout: 10000,
         },
+        {
+            id: 'nezhak.guguji.us.kg',
+            name: 'Nezha_Dash_Cloudflare',
+            // `method` should be `TCP_PING` for tcp monitors
+            method: 'GET',
+            // `target` should be `host:port` for tcp monitors
+            target: 'https://nezhak.guguji.us.kg/',
+            tooltip: 'My production server monitor',
+            statusPageLink: 'https://nezhak.guguji.us.kg/',
+            timeout: 10000,
+        },
+        //反代
         {
             id: 'rp.guguji.us.kg',
             name: 'NPM_MS600_gugu-docker-prod',
