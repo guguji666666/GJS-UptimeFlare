@@ -196,35 +196,13 @@ const workerConfig = {
         },
         {
             id: 'img.tigaultraman.com',
-            name: '大盘鸡tigaultraman图床',
+            name: '大盘鸡EasyImage-tigaultraman图床',
             // `method` should be `TCP_PING` for tcp monitors
             method: 'GET',
             // `target` should be `host:port` for tcp monitors
             target: 'https://img.tigaultraman.com/',
             tooltip: 'My production server monitor',
             statusPageLink: 'https://img.tigaultraman.com/',
-            timeout: 10000,
-        },
-        {
-            id: 'image.gulaoda.com',
-            name: 'R2-gulaoda图床',
-            // `method` should be `TCP_PING` for tcp monitors
-            method: 'GET',
-            // `target` should be `host:port` for tcp monitors
-            target: 'https://image.gulaoda.com/',
-            tooltip: 'My production server monitor',
-            statusPageLink: 'https://image.gulaoda.com/',
-            timeout: 10000,
-        },
-        {
-            id: 'guguimage.aceultraman.com',
-            name: 'R2-aceultraman图床',
-            // `method` should be `TCP_PING` for tcp monitors
-            method: 'GET',
-            // `target` should be `host:port` for tcp monitors
-            target: 'https://guguimage.aceultraman.com/',
-            tooltip: 'My production server monitor',
-            statusPageLink: 'https://guguimage.aceultraman.com/',
             timeout: 10000,
         },
         {
@@ -239,14 +217,14 @@ const workerConfig = {
             timeout: 10000,
         },
         {
-            id: 'note.gulaoda.us.kg',
-            name: 'Joplin',
+            id: 'notegugu.gulaoda.us.kg',
+            name: 'Joplin-UGOS',
             // `method` should be `TCP_PING` for tcp monitors
             method: 'GET',
             // `target` should be `host:port` for tcp monitors
-            target: 'https://note.gulaoda.us.kg/',
+            target: 'https://notegugu.gulaoda.us.kg/',
             tooltip: 'My production server monitor',
-            statusPageLink: 'https://note.gulaoda.us.kg/',
+            statusPageLink: 'https://notegugu.gulaoda.us.kg/',
             timeout: 10000,
         },
 
