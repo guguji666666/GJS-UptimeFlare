@@ -191,7 +191,7 @@ const workerConfig = {
             // `target` should be `host:port` for tcp monitors
             target: 'https://nt.tigaultraman.com/',
             tooltip: 'My production server monitor',
-            statusPageLink: 'https://nt.tigaultraman.com/',
+            //statusPageLink: 'https://nt.tigaultraman.com/',
             timeout: 10000,
         },
         {
