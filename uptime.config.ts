@@ -62,13 +62,46 @@ const workerConfig = {
         },
         {
             id: 'jump.gulaoda.us.kg',
-            name: 'JumpeSever 堡垒机_UGOS',
+            name: 'JumpeSever 堡垒机 CW',
             // `method` should be `TCP_PING` for tcp monitors
             method: 'GET',
             // `target` should be `host:port` for tcp monitors
             target: 'https://jump.gulaoda.us.kg/',
             tooltip: 'My production server monitor',
             statusPageLink: 'https://jump.gulaoda.us.kg/',
+            timeout: 10000,
+        },
+        {
+            id: 'ntm.gulaoda.us.kg',
+            name: 'Nexterm-UGOS',
+            // `method` should be `TCP_PING` for tcp monitors
+            method: 'GET',
+            // `target` should be `host:port` for tcp monitors
+            target: 'https://ntm.gulaoda.us.kg/',
+            tooltip: 'My production server monitor',
+            statusPageLink: 'https://ntm.gulaoda.us.kg/',
+            timeout: 10000,
+        },
+        {
+            id: 'spp.gulaoda.us.kg',
+            name: 'SunPanel_UGOS',
+            // `method` should be `TCP_PING` for tcp monitors
+            method: 'GET',
+            // `target` should be `host:port` for tcp monitors
+            target: 'https://spp.gulaoda.us.kg/',
+            tooltip: 'My production server monitor',
+            statusPageLink: 'https://spp.gulaoda.us.kg/',
+            timeout: 10000,
+        },
+        {
+            id: 'notegugu.gulaoda.us.kg',
+            name: 'Joplin-UGOS',
+            // `method` should be `TCP_PING` for tcp monitors
+            method: 'GET',
+            // `target` should be `host:port` for tcp monitors
+            target: 'https://notegugu.gulaoda.us.kg/',
+            tooltip: 'My production server monitor',
+            statusPageLink: 'https://notegugu.gulaoda.us.kg/',
             timeout: 10000,
         },
         {
@@ -172,28 +205,7 @@ const workerConfig = {
             statusPageLink: 'https://mm.gulaoda.us.kg/',
             timeout: 10000,
         },
-        {
-            id: 'spp.gulaoda.us.kg',
-            name: 'SunPanel_UGOS',
-            // `method` should be `TCP_PING` for tcp monitors
-            method: 'GET',
-            // `target` should be `host:port` for tcp monitors
-            target: 'https://spp.gulaoda.us.kg/',
-            tooltip: 'My production server monitor',
-            statusPageLink: 'https://spp.gulaoda.us.kg/',
-            timeout: 10000,
-        },
-        {
-            id: 'jump.gulaoda.us.kg',
-            name: '堡垒机内',
-            // `method` should be `TCP_PING` for tcp monitors
-            method: 'GET',
-            // `target` should be `host:port` for tcp monitors
-            target: 'https://jump.gulaoda.us.kg/',
-            tooltip: 'My production server monitor',
-            statusPageLink: 'https://jump.gulaoda.us.kg/',
-            timeout: 10000,
-        },
+
         {
             id: 'img.tigaultraman.com',
             name: '大盘鸡EasyImage-tigaultraman图床',
@@ -216,18 +228,6 @@ const workerConfig = {
             statusPageLink: 'https://mtc.tigaultraman.com/',
             timeout: 10000,
         },
-        {
-            id: 'notegugu.gulaoda.us.kg',
-            name: 'Joplin-UGOS',
-            // `method` should be `TCP_PING` for tcp monitors
-            method: 'GET',
-            // `target` should be `host:port` for tcp monitors
-            target: 'https://notegugu.gulaoda.us.kg/',
-            tooltip: 'My production server monitor',
-            statusPageLink: 'https://notegugu.gulaoda.us.kg/',
-            timeout: 10000,
-        },
-
         // K8S service
 
         // monitor VPS status
@@ -244,13 +244,13 @@ const workerConfig = {
         //},
     ],
     //notification: {
-        // [Optional] apprise API server URL
+    // [Optional] apprise API server URL
     //    appriseApiServer: "https://gugu-test-apprise-notification-dqhmp8faaqewqexsadap.vercel.app/notify",
-        // [Optional] recipient URL for apprise, refer to https://github.com/caronc/apprise
-        //recipientUrl: "tgram://bottoken/ChatID",
-        // [Optional] timezone used in notification messages, default to "Etc/GMT"
+    // [Optional] recipient URL for apprise, refer to https://github.com/caronc/apprise
+    //recipientUrl: "tgram://bottoken/ChatID",
+    // [Optional] timezone used in notification messages, default to "Etc/GMT"
     //    timeZone: "Asia/Shanghai",
-        // [Optional] grace period in minutes before sending a notification
+    // [Optional] grace period in minutes before sending a notification
     //    gracePeriod: 5,
     //},
     callbacks: {
